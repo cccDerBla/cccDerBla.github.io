@@ -1,0 +1,36 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	
+	
+}
+
+
+div#container {
+	width:1000px;
+	margin:auto;
+	margin-top:50px;
+	border:2px, solid black;
+	/*padding:25px;*/
+	/*padding-top:5px;*/
+	/*padding-bottom:5px;*/
+	background: rgb(245,255,250);
+}
+
+
+
+
