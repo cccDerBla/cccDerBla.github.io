@@ -1,0 +1,55 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	font-family: Arial Rounded MT Bold, sans-serif
+	background: rgb(#,#,#);
+	color:rgb(#,#,#);
+	margin:
+}
+
+
+#container {
+	border: 1px solid rgb(#,#,#);
+	background: rgb(#,#,#);
+	width:90%;
+	max-width: 800px;
+	margin: auto;	
+}
+
+ul {
+	list-style: none;
+	padding-left:0px;
+}
+
+nav.horizontal li {
+	display: inline
+}
+
+nav a {
+	border: 1px solid black;
+	text-decoration:none;
+	background:black;
+	color:white;
+	padding:5px;
+	margin:5px;
+	display: inline-block
+}
+
+nav a:hover {
+	background: blue;
+}
+
