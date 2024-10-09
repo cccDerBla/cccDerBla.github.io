@@ -1,0 +1,75 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+	
+}
+
+
+
+
+body {
+	background: #0000FF;
+}
+
+
+#container {
+	margin:auto;
+	padding-top:175px;
+}
+
+header {
+	font-family:'Papyrus','Lucida Sans Typewriter', sans-serif;
+	color: rgb(245, 255, 250);
+	text-align:center;
+}
+
+span.A{
+	font-size: 600;
+	font-family: "Silkscreen", sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	color: rgb(225, 225, 225);
+	/*position:absolute;*/
+	position: relative;
+	left: 500px;
+	top: 300px;
+}
+
+span.B {
+	font-size: 881px;
+	font-family: "Orbitron", sans-serif;
+	color: rgb(225, 225, 225);
+	/*position:absolute;*/
+	position: fixed;
+	right: -435px;
+	bottom: 328px;
+}
+
+span.C {
+	font-size: 75px;
+	font-family: "Silkscreen", sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	color: rgb(0, 0, 255);
+	/*position:absolute;*/
+	position: fixed;
+	left: 10px;
+	bottom: 275px;
+	text-shadow: 0px 10px black;
+}
+
+p.A {
+	color: #0000FF;
+	font-size: 250px;
+	
+}
+
+
