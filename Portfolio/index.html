@@ -35,8 +35,21 @@
 
 <main>
 
+<script>
+
+//document.write("Test Sentences");
+function welcome() {
+alert("Test Sentences");
+}//alert box function
+function changeBg() {
+document.body.style.background =("#0000ff");
+}//background color function
+</script>
+
+<button onclick="welcome()">Here is a button</button>
+<button onclick="changeBg()"> Color Change </button>
 <figure>
-	<img src="" alt="">
+	<img src="GoatHoney.jpg" alt="Goat with Honey getting poured on it">
 	<figcaption></figcaption
 </figure>
 
@@ -45,6 +58,10 @@
 <footer>
 <p>&#169; Derrick Blancas 2024</p>
 </footer>
+
+<script>
+document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
 
   </div><!-- close "container" -->
   

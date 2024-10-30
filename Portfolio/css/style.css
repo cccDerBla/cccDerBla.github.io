@@ -1,7 +1,7 @@
 /* Basic CSS resets -- leveling slight inconsistencies in browsers */
 html, body {
-	margin:0px;
-	padding:0px;
+	margin:10px;
+	padding:10px;
 	height:100%;
 }
 
@@ -15,19 +15,21 @@ html {
 
 
 body {
-	font-family: Arial Rounded MT Bold, sans-serif
-	background: rgb(#,#,#);
-	color:rgb(#,#,#);
-	margin:
+	background: rgb(225, 225, 225);
 }
 
 
 #container {
-	border: 1px solid rgb(#,#,#);
-	background: rgb(#,#,#);
+	border: 1px solid rgb(225, 225, 225);
+	background: rgb(225, 225, 225);
 	width:90%;
 	max-width: 800px;
-	margin: auto;	
+	margin: auto;
+}
+
+img {
+width: 100%;
+max-width:800px
 }
 
 ul {
@@ -53,3 +55,14 @@ nav a:hover {
 	background: blue;
 }
 
+/* Minimum width for desktop screens.*/
+@media al and (min-width: 1024px);
+
+/* #container {
+	border:1px solid black;
+	width: 800px;
+	background:blue;
+	
+}
+
+*/
