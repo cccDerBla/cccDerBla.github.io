@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	
+	<title>Derrick B - Assignment 8</title>
+	
+	<link rel="stylesheet" href="css/style.css">	
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+	
+</head>
+
+
+<body>
+
+  <div id="container">
+
+<header>
+<h1 style="text-align: center;">Assignment 8</h1>
+<button id="Swap">Swap</button>
+<img id="hidden" src="img\8.png" alt="8" style="2em">
+<h2 style="text-align: center;">jQuery</h2>
+<button id="Exchange">Exchange</button>
+<img id="hiding" src="img\jquery.png" alt="8" style="2em">
+</header>
+
+<main>
+
+<p style="text-align:center;">Create a one-page website that opens in a fairly minimal fashion.</p>
+<button id ="Trade">Trade</button>
+<p id="hid" style="text-align: center;">Create a one-page website that opens in a fairly minimal fashion.<p>
+
+</main>
+
+
+
+  </div><!-- close "container" -->
+  
+  
+  <!-- Paste the jQuery starter code below here -->
+  
+    <!-- Link to jQuery on Google CDN-->
+  <!-- Link to jQuery on Google CDN-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  
+
+<script>
+  $('img#hidden').hide();
+  
+    $('img#hiding').hide();
+    
+    $('p#hid').hide();
+    
+  $(document).ready(function() {
+
+$('button#Swap').click(function() {
+
+$('img#hidden').slideToggle();
+
+});//close click function
+
+$('button#Swap').click(function() {
+	$('h1').slideToggle();
+	
+});//close click function
+
+$('button#Exchange').click(function() {
+
+$('img#hiding').slideToggle();
+
+});//close click function
+
+$('button#Trade').click(function() {
+
+$('p#hid').fadeToggle();
+
+});
+
+  }); //close .ready()
+</script>
+
+ 
+
+</body>
+  
+  
+  
+
+</body>
+	
+</html> 
