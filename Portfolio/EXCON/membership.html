@@ -12,6 +12,12 @@
 	
 	<link rel="stylesheet" href="style.css">	
 	
+	<script>
+		function redirectToPage() {
+		window.location.href = "thanks.html"; 
+		}
+	</script>
+	
 </head>
 
 <body>
@@ -34,29 +40,29 @@
     </header>
 
     <div class="container">
-        <h2>Join Our Membership</h2>
-        <p>Become a member to stay updated and enjoy exclusive benefits related to our project. Fill out the form below to sign up:</p>
+        <img src="img/NEWSLETTER.png" alt="Newletter" class="news">
+        <p>Become a member to stay updated with everything in regards to EXCON and it's efforts. Fill out the form below to sign up:</p>
+	
+	<form action="#" method="post">
+		<label for="name">Full Name:</label>
+		<input type="text" id="name" name="name" required>
 
-        <form action="#" method="post">
-            <label for="name">Full Name:</label>
-            <input type="text" id="name" name="name" required>
+		<label for="email">Email Address:</label>
+		<input type="email" id="email" name="email" required>
 
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" required>
+		<label for="password">Create Password:</label>
+		<input type="password" id="password" name="password" required>
 
-            <label for="password">Create Password:</label>
-            <input type="password" id="password" name="password" required>
+		<button type="button" onclick="redirectToPage()">Sign Up</button>
+	</form>
 
-            <button type="submit">Sign Up</button>
-        </form>
     </div>
 
     <footer>
-        <p>&copy; 2024 Final Project. All rights reserved.</p>
+        <p>&copy; 2024 EXCON. All rights (kinda) reserved.</p>
     </footer>
 
   </div><!-- close "container" -->
-  
 
 </body>
 	
